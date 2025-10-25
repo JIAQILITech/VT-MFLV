@@ -1,7 +1,7 @@
 # VT-MFLV
 This repo is the official implementation of "VT-MFLV: Vision-Text Multimodal Feature Learning V Network for Medical Image Segmentation"
 
-<img width="527" height="401" alt="frame" src="https://github.com/user-attachments/assets/734b67a2-0bfe-4af1-8387-2d547fbcd0f2" />
+![image](https://github.com/Ljq777777/VT-MFLV/tree/main/IMG/frame.png)
 
 ## Requirements
 
