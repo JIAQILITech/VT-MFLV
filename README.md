@@ -49,11 +49,10 @@ Then prepare the datasets in the following format for easy use of the code:
      	     ├── Val_text.xlsx
            ├── img
             └── labelcol
-   
-```
+   ```
 
 
-### 2. Training
+### 3. Training
 You can train to get your own model. 
 
 ```angular2html
