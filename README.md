@@ -49,7 +49,7 @@ Then prepare the datasets in the following format for easy use of the code:
      	     ├── Val_text.xlsx
            ├── img
             └── labelcol
-   ```
+```
 
 
 ### 3. Training
