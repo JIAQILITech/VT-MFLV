@@ -52,7 +52,7 @@ Then prepare the datasets in the following format for easy use of the code:
 ```
 
 
-### 3. Training
+### 2. Training
 You can train to get your own model. 
 
 ```angular2html
