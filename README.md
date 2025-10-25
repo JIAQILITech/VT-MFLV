@@ -25,8 +25,6 @@ The text annotation of QaTa-COV19 has been released!
   *(Note: The text annotation of QaTa-COV19 train and val datasets [download link](https://1drv.ms/x/s!AihndoV8PhTDkm5jsTw5dX_RpuRr?e=uaZq6W).
   The partition of train set and val set of QaTa-COV19 dataset [download link](https://1drv.ms/u/s!AihndoV8PhTDgt82Do5kj33mUee33g?e=kzWl8y).
   The text annotation of QaTa-COV19 test dataset [download link](https://1drv.ms/x/s!AihndoV8PhTDkj1vvvLt2jDCHqiM?e=954uDF).)*
-
-  ***(Note: The contrastive label is available in the repo.)***
   
 ***(Note: The text annotation of MosMedData+ train dataset [download link](https://1drv.ms/x/s!AihndoV8PhTDguIIKCRfYB9Z0NL8Dw?e=8rj6rY).
 The text annotation of MosMedData+ val dataset [download link](https://1drv.ms/u/s!AihndoV8PhTDguIGtAgZiRQFYfsAjw?e=tqowkJ).
@@ -38,46 +36,25 @@ Then prepare the datasets in the following format for easy use of the code:
 
 ```angular2html
 ├── datasets
-    ├── QaTa-Covid19
-    │   ├── Test_Folder
-    |   |   ├── Test_text.xlsx
-    │   │   ├── img
-    │   │   └── labelcol
-    │   ├── Train_Folder
-    |   |   ├── Train_text.xlsx
-    │   │   ├── img
-    │   │   └── labelcol
-    │   └── Val_Folder
-    |	    ├── Val_text.xlsx
-    │       ├── img
-    │       └── labelcol
-    └── MosMedData
+    ├── VT-MFLV
         ├── Test_Folder
-        |   ├── Test_text.xlsx
+        |   ├── Test_text.xlsx
         │   ├── img
         │   └── labelcol
         ├── Train_Folder
-        |   ├── Train_text.xlsx
+        |   ├── Train_text.xlsx
         │   ├── img
-        │   └── labelcol
-        └── Val_Folder
-            ├── Val_text.xlsx
-            ├── img
+        │   └── labelcol
+        └── Val_Folder
+     	     ├── Val_text.xlsx
+           ├── img
             └── labelcol
+   
 ```
 
 
 ### 2. Training
-
-#### 2.1. Pre-training
-You can replace LVIT with U-Net for pre training and run:
-```angular2html
-python train_model.py
-```
-
-#### 2.2. Training
-
-You can train to get your own model. It should be noted that using the pre-trained model in the step 2.1 will get better performance or you can simply change the model_name from LViT to LViT_pretrain in config.
+You can train to get your own model. 
 
 ```angular2html
 python train_model.py
